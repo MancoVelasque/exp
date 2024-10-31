@@ -1,0 +1,201 @@
+.ab img{
+min-width: 100%;
+min-height: 100%;
+position: absolute;
+}
+body{
+margin: 0px;
+cursor: url(img/cursor.png), auto;
+}
+#frase{
+position: fixed;
+top: 54%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: rgb(22, 1, 12);
+text-align: center;
+}
+#frase p{
+text-shadow: rgb(51, 129, 148) 0px 0px 90px;
+top: 50px;
+position: relative;
+}
+.caja{
+border: 2px solid white;
+position: fixed;
+width: 800px;
+height: 200px;
+top: 10px;
+right: -27px;
+box-shadow: 0px 0px 50px;
+color: rgba(32, 110, 124, 0.24);
+border-radius: 20px;
+
+}
+#frase h1{
+ text-decoration: underline; 
+
+}
+.caja{
+background: #9995950e;
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+z-index: -1;
+top: 20%;
+}
+#frase h3{
+top: 75px;
+position: relative;
+}
+.dos{
+border: 2px solid none;
+top: 124px;
+position: relative;
+width: 22%;
+height: 40px;
+left: 284px;
+background: #9995950e;
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+z-index: -1;
+box-shadow: 0px 0px 50px;
+color: rgba(65, 163, 180, 0.63);
+}
+.linead{
+border: 1px solid none;
+width: 3px;
+height: 70px;
+position: fixed;
+top: 280px;
+left: 357px;
+background-color: rgb(70, 7, 64);
+border-radius: 10px;
+}
+header h3{
+color: rgb(180, 15, 51);
+text-shadow: 0px 0px 20px;
+right: -14px;
+}
+
+#imagenes{
+z-index: 10;
+position: fixed;
+display: flex;
+align-content:space-around;
+align-items: center;
+top: 633px;
+left: 52.9%;
+}
+
+.face, .you{
+right:140%;
+position: relative;
+}
+
+.you{
+right:70%;
+}
+.tres{
+border: 2px solid white;
+width: 50%;
+height: 60px;
+position: relative;
+top: 120px;
+left: 185px;
+background: #9995950e;
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+z-index: -1;
+border-radius: 10px;
+}
+#inicio{
+position: fixed;
+}
+#opciones{
+position: fixed;
+display:flex;
+top: 29%;
+left: 23%;
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: rgb(73, 31, 141);
+text-align: center;
+z-index: 2;
+
+}
+#opciones li{
+margin: 0 60px;
+border: 2px solid rgb(255, 255, 255);
+width: 40px;
+height: 20px;
+padding: 6px;
+background-color: aliceblue;
+border-radius: 10px 10px 0px 0px;
+list-style: none;
+cursor: pointer;
+}
+
+#opciones li:hover{
+color: rgb(176, 161, 245);
+background-color: white;
+transform: scale(1.05);
+box-shadow: 0 0px 15px rgb(0, 255, 234); 
+}
+.lele{
+position: fixed;
+left: 42%
+}
+.gato{
+position: fixed;
+z-index: 30;
+transform: translate(-50%, -50%);
+top: 73.5%;
+left: 54%;
+}
+
+h1{
+color: rgb(28, 8, 65);   
+position: relative;
+top: 58px;
+}
+
+.limi, .limitan{
+border: 2px solid rgb(255, 255, 255);
+position: fixed;
+left: 47%;
+top: 616px;
+height: 58px;
+}
+.limitan{
+left: 54%;
+}
+.zombie, .muerto{
+position: fixed;
+transform: translate(-50%, -50%);
+top: 29.1%;
+left: 32%;
+}
+.muerto{
+top: 88%;
+left: 51%;
+}
+#opciones .boton{
+background-color: rgb(255, 255, 255);
+border: 2px solid rgb(255, 255, 255);
+color: rgb(176, 161, 245);
+background-color: white;
+transform: scale(1.05);
+box-shadow: 0 0px 15px rgb(0, 255, 234); 
+}
+.zombie{
+  left: 26%; 
+  top: 33.3%; 
+}
+.tw{
+ position: relative; 
+ left: -10px; 
+}
